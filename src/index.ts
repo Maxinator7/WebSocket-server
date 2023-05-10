@@ -8,6 +8,8 @@ import {
 } from "./utils/message.js"
 import { Socket, newState } from "./utils/state.js"
 import { WebSocketServer } from "ws"
+console.log("hello");
+
 
 const wss = new WebSocketServer({ port: Number(process.env.PORT) })
 
